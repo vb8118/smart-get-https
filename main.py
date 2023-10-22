@@ -1,7 +1,7 @@
 from pySmartDL import SmartDL
 
-url = "https://testfileorg.netwet.net/testfile.org-1GB-%20Corrupt.zip"
-output_file = "1GB-testlargefile.zip"
+url = "https://sabnzbd.org/tests/internetspeed/50MB.bin"
+output_file = "./1GB-testlargefile.zip"
 
 dl = SmartDL(url, output_file)
 dl.start()
